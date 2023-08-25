@@ -21,4 +21,30 @@
 ["Russia", "Denmark", "Kazan"] → []
 
 
+### Код функции FormNewArrayStringsGivenLength
 
+
+
+
+    string[] FormNewArrayStringsGivenLength(string[] arr, int lengtStr)
+    {
+        string[] arr2 = new string[arr.Length];
+
+        int countIndex = 0;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i].Length <= lengtStr)
+            {
+                arr2[countIndex] = arr[i];
+                countIndex++;
+            }
+        }
+
+        string[] arr3 = new string[countIndex];
+        for (int i = 0; i < countIndex; i++)
+        {
+            arr3[i] = arr2[i];
+        }
+
+        return arr3;
+    }
