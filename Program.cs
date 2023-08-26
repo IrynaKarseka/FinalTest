@@ -1,13 +1,13 @@
 ﻿
-string[] FormNewArrayStringsGivenLength(string[] arr, int lengtStr)
+string[] FormNewArrayStringsGivenLength(string[] array, int lengtStr)
 {
-    string[] arr2 = new string[arr.Length];
+    string[] arr2 = new string[array.Length];
     int countIndex = 0;
-    for (int i = 0; i < arr.Length; i++)
+    for (int i = 0; i < array.Length; i++)
     {
-        if (arr[i].Length <= lengtStr)
+        if (array[i].Length <= lengtStr)
         {
-            arr2[countIndex] = arr[i];
+            arr2[countIndex] = array[i];
             countIndex++;
         }
     }

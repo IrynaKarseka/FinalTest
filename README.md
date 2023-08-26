@@ -21,6 +21,10 @@
 ["Russia", "Denmark", "Kazan"] → []
 
 
+### Блок-схема алгоритма
+![Logo](<Блок-схема.drawio (2)-1.png>)
+
+
 ### Код функции FormNewArrayStringsGivenLength
 
 
